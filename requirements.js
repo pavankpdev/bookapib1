@@ -33,8 +33,8 @@
 // update/add new author✅
 
 // DELETE
-// delete a book
-// delete a author from a book
+// delete a book✅
+// delete a author from a book✅
 
 // ---------------------------------------------------------------------------------------
 
@@ -54,7 +54,7 @@
 // update Author name using id [Task] 🔥
 
 // DELETE
-// Delete an author
+// Delete an author [Task] 🔥🚀
 
 // ---------------------------------------------------------------------------------------
 
@@ -75,8 +75,8 @@
 // update/add new book to a publication✅
 
 // DELETE
-// delete a book from publication
-// delete a publication
+// delete a book from publication ✅
+// delete a publication [Task] 🔥🚀
 
 
-// How the server serves the request 
+// How does the server serves the request ?
