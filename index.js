@@ -12,11 +12,13 @@ const shapeAI = express();
 // Configurations
 shapeAI.use(express.json());
 
+console.log(process.env.MONGO_URL);
+
 // Establish Database connection
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
+    useUnifiedopology: true,
     useFindAndModify: false,
     useCreateIndex: true,
   })
