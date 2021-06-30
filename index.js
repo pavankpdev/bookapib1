@@ -7,6 +7,11 @@ const mongoose = require("mongoose");
 // Database
 const database = require("./database/index");
 
+// Models
+const BookModels = require("./database/book");
+const AuthorModels = require("./database/author");
+const PublicationModel = require("./database/publication");
+
 // Initializing express
 const shapeAI = express();
 
@@ -311,8 +316,3 @@ shapeAI.delete("/publication/delete/book/:isbn/:pubId", (req, res) => {
 });
 
 shapeAI.listen(3000, () => console.log("Server running!!😎"));
-
-
-
-
-
